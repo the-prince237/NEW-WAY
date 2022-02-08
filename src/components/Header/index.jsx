@@ -64,14 +64,14 @@ const CartButton = styled.div`
 function Header(){
   return(
     <HeaderWrapper>
-      <LogoWrapper to='/'>
+      <LogoWrapper to='/NEW-WAY/'>
         <IoLogoSlack color='#6741d9' size='2em' alt="NEW WAY" /> <span>new</span> way
       </LogoWrapper>
 
       <MenuWrapper>
-        <Link className='menu-link' to='/'>accueil</Link>
-        <Link className='menu-link models-link' to='/catalog'>modèles</Link>
-        <Link className='menu-link' to='/about'>à propos</Link>
+        <Link className='menu-link' to='/NEW-WAY/'>accueil</Link>
+        <Link className='menu-link models-link' to='/NEW-WAY/catalog'>modèles</Link>
+        <Link className='menu-link' to='/NEW-WAY/about'>à propos</Link>
       </MenuWrapper>
 
       <CartButton>

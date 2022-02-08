@@ -18,9 +18,9 @@ ReactDOM.render(
       <GlobalStyle/>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />}/>
-        <Route path="/catalog" element={<Catalog />}/>
-        <Route path="/about" element={<About/>}/>
+        <Route exact path="/NEW-WAY/" element={<Home />}/>
+        <Route path="/NEW-WAY/catalog" element={<Catalog />}/>
+        <Route path="/NEW-WAY/about" element={<About/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       <Footer/>

@@ -69,7 +69,7 @@ function Home(){
         </div>
       </ServicesWrapper>
 
-      <ModelStyledLink to='/catalog'>nos modeles</ModelStyledLink>
+      <ModelStyledLink to='/NEW-WAY/catalog'>nos modeles</ModelStyledLink>
     </HomeWrapper>
   );
 }
