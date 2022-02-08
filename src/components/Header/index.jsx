@@ -64,7 +64,7 @@ const CartButton = styled.div`
 function Header(){
   return(
     <HeaderWrapper>
-      <LogoWrapper to='/NEW-WAY/'>
+      <LogoWrapper to='/NEW-WAY'>
         <IoLogoSlack color='#6741d9' size='2em' alt="NEW WAY" /> <span>new</span> way
       </LogoWrapper>
 
